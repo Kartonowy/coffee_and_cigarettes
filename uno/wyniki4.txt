@@ -1,5 +1,6 @@
 4.2: 2
 4.2: 145
 4.2: 1
+4.2: 40585
 4.1: 18
-4.3: pierwsza liczba ciągu 89170, długość 146, największy wspólny dzielnik 74
+4.3: pierwsza liczba ciągu 31968, długość 150, największy wspólny dzielnik 74

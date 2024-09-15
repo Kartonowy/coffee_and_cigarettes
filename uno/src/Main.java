@@ -28,8 +28,7 @@ public class Main {
                     if (nums.size() == 1 || nums.isEmpty()) {
                         nums.add(number);
                     } else {
-                        int current = gcd_array(nums);
-                        if(gcd(gcd_array(nums), number) == current && current > 1) {
+                        if(gcd(gcd_array(nums), number) > 1) {
                             nums.add(number);
                         } else {
                             if (greatest.size() < nums.size()) {
@@ -77,6 +76,9 @@ public class Main {
         return n == total;
     }
     public static int factorial(int n) {
+        if (n == 0) {
+            return 1;
+        }
         if (n > 1) {
             return n * factorial(n - 1);
         } else {
