@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="unit type"
+                    />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit number"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit designation"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit id"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit mission 1"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit mission 2"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit mission 3"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="unit mission 4"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="YoRHa Series"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="construction date"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="sex"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
