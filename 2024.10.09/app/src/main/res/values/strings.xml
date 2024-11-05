@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2024.10.09</string>
+    <string name="register">Rejestruj konto</string>
+    <string name="email">Podaj adres e-mail:</string>
+    <string name="password">Podaj haslo:</string>
+    <string name="reppassword">Powtórz haslo:</string>
+    <string name="submit">Zatwierdź</string>
+    <string name="hello">Witaj anna@poczta.pl</string>
+</resources>

@@ -6,28 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        android:layout_width="410dp"
+        android:layout_height="734dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
             style="@style/GreenText"
-            android:text="@string/crazy"
-            />
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="20dp"
+            android:text="@string/crazy" />
+
+        <TextView
             style="@style/GrayText"
-            android:text="@string/crazy"
-            />
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="20dp"
+            android:text="@string/crown" />
+
+        <TextView
             style="@style/funnyText"
-            android:text="@string/crazy"
-            />
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/italy" />
     </LinearLayout>
 
 
