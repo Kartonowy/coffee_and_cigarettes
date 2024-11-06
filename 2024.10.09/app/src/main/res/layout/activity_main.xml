@@ -11,42 +11,69 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/register"
-                android:textSize="32dp"
-                android:gravity="left"
-                />
-        </Toolbar>
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="32sp"
+            android:background="@color/greenish"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:textColor="@color/grayish"
+            android:layout_width="match_parent"
             android:layout_height="32dp"
-            android:text="@string/email"/>
+            android:text="@string/email"
+            android:labelFor="@+id/email"
+            />
         <EditText
+            android:id="@+id/email"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
-            android:layout_height="32dp"/>
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress"
+            android:layout_height="52dp"/>
         <TextView
+            android:textColor="@color/grayish"
             android:layout_width="match_parent"
             android:layout_height="32dp"
+            android:labelFor="@+id/pass"
             android:text="@string/password"/>
         <EditText
             android:id="@+id/pass"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
-            android:layout_height="32dp"/>
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:layout_height="52dp"/>
         <TextView
+            android:textColor="@color/grayish"
             android:layout_width="match_parent"
             android:layout_height="32dp"
+            android:labelFor="@+id/reppassword"
             android:text="@string/reppassword"/>
         <EditText
+            android:id="@+id/reppassword"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
-            android:layout_height="32dp"/>
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:layout_height="52dp"/>
         <Button
-            android:layout_width=""
-            android:layout_height=""
+            android:layout_width="128dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_grayish"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello"
+            android:textAlignment="center"
+            android:textColor="@color/grayish"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
