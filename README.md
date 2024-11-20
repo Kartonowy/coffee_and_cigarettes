@@ -12,6 +12,8 @@
 | 23.10.2024 | [link2](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.23a) |[zadanie](#zadanie-23102024) |
 | 30.10.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.30) | [zadanie](#zadanie-30102024) |
 | 06.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.06) | [zadanie](#zadanie-06112024) |
+| 13.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.13) | [zadanie](#zadanie-13112024) |
+| 20.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.20) | [zadanie](#zadanie-20112024) |
 
 ## Zadania
 
@@ -55,3 +57,23 @@ Przygotuj arkusz stylów (minimum 3 style). Wykorzystaj style w kilku komponenta
 Przygotuj prostą aplikację w LinearLeayout (vertical).
 Aplikacja powinna zawierać formularz z minimum 3 polami edycyjnymi, radio buttonami oraz checkboxem, a także minimum 2 przyciski.
 Przetestuj aplikację na różnych tematach (themes). Wbudowane tematy znajdziesz w pliku: https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/res/res/values/themes.xml
+
+### Zadanie 13.11.2024
+Przygotuj prostą aplikację w Android.
+Aplikacja składa się z następujących elementów
+- pole edycyjne [1]
+- przycisk [2]
+- pole tekstowe [3]
+- pole edycyjne [4]
+- przycisk [5]
+Po kliknięciu w przycisk oznaczony [2] pole tekstowe oznaczone [3] zostaje wypełnione tekstem wpisanym w pole edycyjne oznaczone [1]. Użyj onClick w XML
+Po kliknięciu w przycisk oznaczony [5] zostaje wyświetlony Toast zawierający treść wpisaną w pole edycyjne oznaczone [4]. Użyj event listenera.
+ 
+ 
+
+### Zadanie 20.11.2024
+
+https://www.testy.egzaminzawodowy.info/arkusz-20154-kwalifikacja-inf4-styczen-2022-zadanie-1
+ 
+Zadanie Android (tym razem całe)
+ 
