@@ -14,6 +14,7 @@
 | 06.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.06) | [zadanie](#zadanie-06112024) |
 | 13.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.13) | [zadanie](#zadanie-13112024) |
 | 20.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.20) | [zadanie](#zadanie-20112024) |
+| 27.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.27) | [zadanie](#zadanie-27112024) |
 
 ## Zadania
 
@@ -77,3 +78,18 @@ https://www.testy.egzaminzawodowy.info/arkusz-20154-kwalifikacja-inf4-styczen-20
  
 Zadanie Android (tym razem całe)
  
+### Zadanie 27.11.2024
+
+Wykonaj kopię zadania z poprzedniej lekcji.
+Wprowadź następujące zmiany:
+- Utwórz nową aktywność
+- Utwórz widok z dużym tekstem "Witamy w aplikacji" oraz małym tekstem "Zalogowano jako <email>, a także przyciskiem "Wyloguj"
+- Po kliknięciu w przycisk "Zatwierdź"  przenieś użytkownika do nowej aktywności
+- Do aktywności przekaż adres e-mail wpisany przez użytkownika
+- Przed przeniesieniem sprawdź czy adres e-mail jest poprawny (regex) oraz czy hasło spełnia poniższe założenia:
+    - minimum 8 znaków
+    - minimum jedna cyfra
+    - minimum jedna wielka litera
+    - minimum jedna mała litera
+    W przypadki błędów walidacji wyświetl informację czerwonym tekstem w miejscu tekstu "Witaj <email>"
+- Kliknięcie przycisku "Wyloguj" przenosi do pierwszej aktywności
