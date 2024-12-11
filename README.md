@@ -15,6 +15,7 @@
 | 13.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.13) | [zadanie](#zadanie-13112024) |
 | 20.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.20) | [zadanie](#zadanie-20112024) |
 | 27.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.27) | [zadanie](#zadanie-27112024) |
+| 11.12.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.12.11) | [zadanie](#zadanie-11122024) |
 
 ## Zadania
 
@@ -93,3 +94,20 @@ Wprowadź następujące zmiany:
     - minimum jedna mała litera
     W przypadki błędów walidacji wyświetl informację czerwonym tekstem w miejscu tekstu "Witaj <email>"
 - Kliknięcie przycisku "Wyloguj" przenosi do pierwszej aktywności
+
+### Zadanie 27.11.2024
+
+Przygotuj nową aplikację bazującą na Empty Views Activity.
+Przygotuj dwa fragmenty.
+Fragment 1:
+Formularz z trzema polami:
+- adres e-mail
+- imię
+- nazwisko
+oraz przyciskiem
+
+Fragment 2:
+Dane podane na pierwszym fragmencie z labelami.
+ 
+Działanie aplikacji:
+Po załadowaniu wyświetlany jest fragment 1. Po kliknięciu przycisku na pierwszym fragmencie aplikacja sprawdza czy pola nie są puste oraz czy adres e-mail jest poprawny. W przypadku poprawnych danych ekran jest zmieniany na fragment 2 z uzupełnionymi danymi.
