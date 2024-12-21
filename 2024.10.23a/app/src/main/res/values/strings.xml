@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GriddyTabley</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="send">send</string>
 </resources>

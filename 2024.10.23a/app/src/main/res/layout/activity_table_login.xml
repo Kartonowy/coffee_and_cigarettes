@@ -2,11 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/table"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Grid">
-
+    tools:context=".TableLogin">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -47,24 +46,8 @@
                 />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            >
-            <TextView
-                android:text="@string/repeat_password"
-                android:layout_column="0"
-                android:layout_gravity="fill_horizontal"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="0.3"
-                android:layout_column="1"
-                android:layout_gravity="start"
-                android:autofillHints="reppassword"
-                />
-        </TableRow>
 
-        <Button android:text="@string/send" />
+        <Button android:text="@string/login" />
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
