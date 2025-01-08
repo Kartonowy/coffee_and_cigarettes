@@ -16,6 +16,7 @@
 | 20.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.20) | [zadanie](#zadanie-20112024) |
 | 27.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.27) | [zadanie](#zadanie-27112024) |
 | 11.12.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.12.11) | [zadanie](#zadanie-11122024) |
+| 08.01.2025 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2025.01.08) | [zadanie](#zadanie-08012024) |
 
 ## Zadania
 
@@ -111,3 +112,11 @@ Dane podane na pierwszym fragmencie z labelami.
  
 Działanie aplikacji:
 Po załadowaniu wyświetlany jest fragment 1. Po kliknięciu przycisku na pierwszym fragmencie aplikacja sprawdza czy pola nie są puste oraz czy adres e-mail jest poprawny. W przypadku poprawnych danych ekran jest zmieniany na fragment 2 z uzupełnionymi danymi.
+
+### Zadanie 8.01.2025
+
+https://egzamin.it/Formula%202019/inf_04/2024/inf_04_2024_01_02_SG/
+
+Zadanie z Androida + dodać powiadomienie o treści imię i nazwisko właściciela, gatunek, wiek, cel wizyty, czas zgodnie z założeniami tekstu wyświetlanego w zadaniu egzaminacyjnym pod formularzem.
+Index of /Formula 2019/inf_04/2024/inf_04_2024_01_02_SG
+

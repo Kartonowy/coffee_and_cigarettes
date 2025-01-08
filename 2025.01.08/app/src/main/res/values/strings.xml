@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2025.01.08</string>
+    <string name="wizyta_u_weterynarza">Wizyta u weterynarza</string>
+    <string name="imi_i_nazwisko_w_a_ciciela">Imię i nazwisko właściciela...</string>
+    <string name="gatunek">Gatunek</string>
+    <string name="ile_ma_lat">Ile ma lat?</string>
+    <string name="_0">0</string>
+    <string name="cel_wizyty">Cel wizyty</string>
+    <string name="_16_00">16:00</string>
+    <string name="ok">OK</string>
+</resources>

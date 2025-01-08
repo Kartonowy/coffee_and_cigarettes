@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/LightGreen"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wizyta_u_weterynarza"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:background="@color/SeaGreen"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/imi_i_nazwisko_w_a_ciciela"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:id="@+id/name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gatunek" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:id="@+id/species"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:text="@string/ile_ma_lat" />
+            <TextView
+                android:id="@+id/prog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0" />
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:min="0"
+                android:max="20"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:hint="@string/cel_wizyty"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:text="@string/_16_00"
+            android:importantForAutofill="no"
+            />
+        
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/out" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
