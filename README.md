@@ -9,7 +9,7 @@
 | 09.10.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.09) | [zadanie](#zadanie-09102024) |
 | 16.10.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.16) | [zadanie](#zadanie-16102024) |
 | 23.10.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.23) | [zadanie](#zadanie-23102024) |
-| 23.10.2024 | [link2](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.23a) |[zadanie](#zadanie-23102024) |
+| 23.10.2024 | [link2](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.23a)|[zadanie](#zadanie-23102024) |
 | 30.10.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.10.30) | [zadanie](#zadanie-30102024) |
 | 06.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.06) | [zadanie](#zadanie-06112024) |
 | 13.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.13) | [zadanie](#zadanie-13112024) |
@@ -117,14 +117,14 @@ Dane podane na pierwszym fragmencie z labelami.
 Działanie aplikacji:
 Po załadowaniu wyświetlany jest fragment 1. Po kliknięciu przycisku na pierwszym fragmencie aplikacja sprawdza czy pola nie są puste oraz czy adres e-mail jest poprawny. W przypadku poprawnych danych ekran jest zmieniany na fragment 2 z uzupełnionymi danymi.
 
-### Zadanie 8.01.2025
+### Zadanie 08.01.2025
 
 https://egzamin.it/Formula%202019/inf_04/2024/inf_04_2024_01_02_SG/
 
 Zadanie z Androida + dodać powiadomienie o treści imię i nazwisko właściciela, gatunek, wiek, cel wizyty, czas zgodnie z założeniami tekstu wyświetlanego w zadaniu egzaminacyjnym pod formularzem.
 
 
-### Zadanie 5.02.2025
+### Zadanie 05.02.2025
 
 Utwórz aplikację Android.
  
