@@ -16,7 +16,11 @@
 | 20.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.20) | [zadanie](#zadanie-20112024) |
 | 27.11.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.11.27) | [zadanie](#zadanie-27112024) |
 | 11.12.2024 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2024.12.11) | [zadanie](#zadanie-11122024) |
-| 08.01.2025 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2025.01.08) | [zadanie](#zadanie-08012024) |
+| 08.01.2025 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2025.01.08) | [zadanie](#zadanie-08012025) |
+| 05.02.2025 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2025.02.05) | [zadanie](#zadanie-05022025) |
+| 12.02.2025 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2025.02.12) | [zadanie](#zadanie-12022025) |
+| 05.03.2025 | [link](https://github.com/Kartonowy/coffee_and_cigarettes/tree/main/2025.03.05) | [zadanie](#zadanie-05032025) |
+
 
 ## Zadania
 
@@ -118,5 +122,52 @@ Po załadowaniu wyświetlany jest fragment 1. Po kliknięciu przycisku na pierws
 https://egzamin.it/Formula%202019/inf_04/2024/inf_04_2024_01_02_SG/
 
 Zadanie z Androida + dodać powiadomienie o treści imię i nazwisko właściciela, gatunek, wiek, cel wizyty, czas zgodnie z założeniami tekstu wyświetlanego w zadaniu egzaminacyjnym pod formularzem.
-Index of /Formula 2019/inf_04/2024/inf_04_2024_01_02_SG
+
+
+### Zadanie 5.02.2025
+
+Utwórz aplikację Android.
+ 
+Aplikacja składa się z 3 aktywności.
+ 
+Aktywność 1:
+widok zawiera 2 przyciski - przycisk 1 i przycisk 2
+ 
+Aktywność 2: 
+widok zawiera dowolny długi tekst oraz przycisk - przycisk 3
+ 
+Aktywność 3:
+widok zawiera minimum 3 obrazki oraz przycisk - przycisk 4
+ 
+ 
+Działanie aplikacji:
+Kliknięcie w przycisk 1 wywołuje powiadomienie  najwyższego priorytetu. Powiadomienie po kliknięciu przenosi do aktywności 2.
+Kliknięcie w przycisk 2 wywołuje powiadomienie najniższego priorytetu. Powiadomienie po kliknięciu przenosi do aktywności 3.
+Kliknięcie w przycisk 3 lub przycisk 4 przenosi do aktywności 1.
+
+### Zadanie 12.02.2025
+
+Przygotuj aplikację Android.
+Aplikacja składa się z jednej aktywności.
+
+W widoku XML przygotuj:
+- pole edycyjne tekstowe z labelem "Imię"
+- pole edycyjne email z labelem "Adres e-mail"
+- przycisk z tekstem "zwiększ liczbę"
+- puste pole tekstowe (txt1)
+- pole tekstowe z tekstem "Kliknąłeś przycisk 0 razy" (txt2)
+
+Działanie aplikacji:
+- Po kliknięciu przycisku wykonuje się jedna z 2 akcji:
+    - Jeżeli jedno z pól (imię lub e-mail) nie zostało wypełnione wyświetla toast o treści "Najpierw uzupełnij swoje dane"
+    - W wypadku wypełnienia obu pól pole tekstowe "txt2" zostanie zaktualizowane o kliknięcie ("Kliknąłeś przycisk 1 razy", "Kliknąłeś przycisk 2 razy", itd.)
+- Po wypełnieniu obu pól edycyjnych w polu tekstowym "txt1" zostanie umieszczony tekst "Witaj, <imie>! Twój adres e-mail to: <email>"
+- Aplikacja musi odtwarzać stan w przypadku obrócenia ekranu.
+
+### Zadanie 5.03.2025
+Przygotuj aplikację Android.
+
+Aplikacja wyświetla zestaw minimum 15 zdjęć w HorizontalScrollView.
+
+Po kliknięciu w zdjęcie jest ono pokazywane na oknie dialogowym. Do okna dialogowego należy użyć DialogFragment.
 
