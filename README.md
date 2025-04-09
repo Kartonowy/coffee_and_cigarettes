@@ -100,7 +100,7 @@ Wprowadź następujące zmiany:
     W przypadki błędów walidacji wyświetl informację czerwonym tekstem w miejscu tekstu "Witaj <email>"
 - Kliknięcie przycisku "Wyloguj" przenosi do pierwszej aktywności
 
-### Zadanie 27.11.2024
+### Zadanie 11.12.2024
 
 Przygotuj nową aplikację bazującą na Empty Views Activity.
 Przygotuj dwa fragmenty.
