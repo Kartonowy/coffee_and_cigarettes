@@ -10,11 +10,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 public class NotificationActivity extends AppCompatActivity {
 
     final String[] LIST_ITEMS = {
@@ -24,6 +19,7 @@ public class NotificationActivity extends AppCompatActivity {
             "Programowanie Aplikacji Webowych",
             "Programowanie Aplikacji Desktopowych"
     };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,13 +35,14 @@ public class NotificationActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.list);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
-                getApplication(),
+                getApplicationContext(),
                 android.R.layout.simple_list_item_1,
                 LIST_ITEMS
         );
 
         listView.setAdapter(adapter);
+        System.out.println(listView);
     }
 
 
-    }
+}
