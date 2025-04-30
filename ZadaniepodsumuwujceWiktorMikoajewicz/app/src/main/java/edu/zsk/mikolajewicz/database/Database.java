@@ -1,0 +1,8 @@
+package edu.zsk.mikolajewicz.database;
+
+import androidx.room.RoomDatabase;
+
+@androidx.room.Database(entities = {User.class}, version = 1)
+public abstract class Database extends RoomDatabase {
+    public abstract UserDao userDao();
+}

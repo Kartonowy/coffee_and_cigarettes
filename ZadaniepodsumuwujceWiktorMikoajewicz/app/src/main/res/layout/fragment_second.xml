@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="#FF001577"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:text="@string/frag2" />
+
+    <Button
+        android:id="@+id/dialogFragmentOpenButton"
+        android:text="@string/opendialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF001577" />
+
+</LinearLayout>

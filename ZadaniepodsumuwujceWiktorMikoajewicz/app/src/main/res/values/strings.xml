@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Zadanie podsumuwujące Wiktor Mikołajewicz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="password">Hasło</string>
+    <string name="loginheader">Logowanie</string>
+    <string name="email">Adres e-mail</string>
+    <string name="login">Zaloguj się</string>
+    <string name="fragfun">Zabawa fragmentami</string>
+    <string name="fragchan">Zmień fragment</string>
+    <string name="showfrag">Pokaż powiadomienie</string>
+    <string name="listview">Wyświetlanie listy</string>
+    <string name="frag1">Fragment 1</string>
+    <string name="frag2">Fragment 2</string>
+    <string name="opendialog">Otwórz okno dialogowe</string>
+    
+    <string name="a1">Android 1</string>
+    <string name="a2">Android 2</string>
+    <string name="a3">Android 3</string>
+    <string name="a4">Android 4</string>
+    <string name="a5">Android 5</string>
+    <string name="hello_blank_fragment">dialog fragment\n</string>
+</resources>
